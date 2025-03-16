@@ -1,19 +1,10 @@
-import { Link } from "react-router-dom";
+import Nav from "./Nav"; 
 
 export default function Layout({ children }) {
   return (
     <>
       <header>
-        <nav>
-          <ul>
-            <li><Link to="/">Hjem</Link></li>
-            <li><Link to="/html">HTML</Link></li>
-            <li><Link to="/css">CSS</Link></li>
-            <li><Link to="/javascript">JavaScript</Link></li>
-            <li><Link to="/react">React</Link></li>
-            <li><Link to="/sanity">Sanity & Headless CMS</Link></li>
-          </ul>
-        </nav>
+        <Nav /> 
       </header>
 
       <main>{children}</main>
