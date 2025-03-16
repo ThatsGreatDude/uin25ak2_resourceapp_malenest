@@ -4,7 +4,6 @@ export default function Nav() {
   return (
     <nav>
       <ul>
-        <li><Link to="/">Hjem</Link></li>
         <li><Link to="/html">HTML</Link></li>
         <li><Link to="/css">CSS</Link></li>
         <li><Link to="/javascript">JavaScript</Link></li>

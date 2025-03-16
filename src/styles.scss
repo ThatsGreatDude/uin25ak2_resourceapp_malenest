@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto&display=swap');
+
+//FIKSE SMÅFEIL!!!!
+
+$blue: #2A324B;
+$lightblue: #58699D;
+$lightgrey: #E1E5EE;
+$white: #fff;
+$font: 'Roboto';
+
+body {
+    background-color: $lightgrey;
+    font-family: $font;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    padding-top: 120px;
+}
+
+nav {
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    ul {
+        list-style-type: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+        padding: 0;
+    }
+
+    a {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 1rem;
+        color: $white;
+        text-decoration: none;
+        box-sizing: border-box;
+        height: 70px;
+        width: 180px;
+        margin-right: 20px;
+        background-color: $blue;
+        white-space: nowrap;
+
+        &.selected {
+            color: $blue;
+            background-color: $white; //Må fikse slik at det vises i hvit på siden som er valgt. 
+            font-weight: bold;
+        }
+    }
+}
+
+#category-info-container {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: $white; //må fikse på slik at hvor infpen er er hvit. ikke grå, som bakgrunnsfargen.
+}
+
+#category-info {
+    width: 850px;
+    padding: 30px;
+}
+
+a[href^="#"] {
+    font-weight: 700;
+}
