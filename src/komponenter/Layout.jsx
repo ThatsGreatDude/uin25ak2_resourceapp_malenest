@@ -22,6 +22,7 @@ export default function Layout({ children }) {
 
 
 
+
 {/* import { Link } from "react-router-dom"; IGNORER DETTE, BARE MEG SOM TESTET TING. 
 
 export default function Layout({ children }) {
