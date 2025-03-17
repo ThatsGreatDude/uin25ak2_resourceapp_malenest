@@ -2,6 +2,9 @@
 
 Tok litt inspirasjon herifra: https://www.youtube.com/watch?v=G6D9cBaLViA&t=1584s
 
+Chatgpt: https://chatgpt.com/share/67d814e0-1d7c-8009-89b4-4dc69a5c1242
+
+
 
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.

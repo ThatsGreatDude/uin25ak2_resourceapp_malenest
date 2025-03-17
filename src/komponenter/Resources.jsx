@@ -5,7 +5,7 @@ const Resources = ({ category }) => {
 
   return (
     <div>
-      <h1>Ressurser for {category}</h1>
+      <h1 className="category-title">Ressurser for {category}</h1> 
       <ul>
         {filteredResources.length > 0 ? (
           filteredResources.map((resource, index) => (
