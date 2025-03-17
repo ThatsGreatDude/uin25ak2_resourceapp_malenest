@@ -16,7 +16,7 @@ const Resources = ({ category }) => {
             </li>
           ))
         ) : (
-          <p>Ingen ressurser funnet for denne kategorien.</p>
+          <p> Ingen resultater for kategorien. </p>
         )}
       </ul>
     </div>
